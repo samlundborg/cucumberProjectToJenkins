@@ -1,0 +1,73 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-26T19:27:06.243Z",
+        "line": 3,
+        "name": "cucumberDelux",
+        "description": "",
+        "id": "to-test-my-cucumber-test-is-running-i-want-to-run-a-sample-feature-file.;cucumberdelux",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "sample feature file is ready",
+            "match": {
+              "location": "com.example.StepDefinitions.givenStatement()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I run the feature file",
+            "match": {
+              "location": "com.example.StepDefinitions.whenStatement()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "run should be successful",
+            "match": {
+              "location": "com.example.StepDefinitions.thenStatement()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "To test my cucumber test is running I want to run a sample feature file.",
+    "description": "",
+    "id": "to-test-my-cucumber-test-is-running-i-want-to-run-a-sample-feature-file.",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/sample.feature",
+    "tags": [
+      {
+        "name": "@smokeTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
